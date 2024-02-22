@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./App.scss";
+
+// style to hide scrollbar in app
+*::-webkit-scrollbar {
+  display: none;
+}
